@@ -14,16 +14,16 @@
 > * Union command: connect two objects.
 > * Find/connected query: is there a path connecting the two objects?
 
-### We assume "is connected to" is an equivalence relation:(就像离散数学中的一样)
+### We assume "is connected to" is an equivalence relation:
 > * Reflexive: p is connected to p.
 > * Symmetric: if p is connected to q,then q is connected to p.
 > * Transitive: if p is connected to q and q is connected to r,then p is connected to r.
 
 ### Connected components.
 Maximal set of objects that are mutually connected.
+![image](https://github.com/Byelaney/Algorithm-P1/raw/master/notes/pictures/connected_components.png)
 
-##Goal:
-Design efficient data structure for union-find.
+##Goal:Design efficient data structure for union-find.
 > * Number of objects N can be huge.
 > * Number of operations M can be huge.
 > * Find queries and union commands may be intermixed.
