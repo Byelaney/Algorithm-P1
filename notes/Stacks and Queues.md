@@ -22,7 +22,9 @@ public class StackOfStrings{
 ```
 
 ### Stack linked-list representation
+### stack-linked-list-pop
 ![image](https://github.com/Byelaney/Algorithm-P1/raw/master/notes/pictures/stack-linked-list-pop.png)
+### stack-linked-list-push
 ![image](https://github.com/Byelaney/Algorithm-P1/raw/master/notes/pictures/stack-linked-list-push.png)
 
 
@@ -121,7 +123,7 @@ public String pop()
 }
 ```
 
-
+### Time cost
 ![image](https://github.com/Byelaney/Algorithm-P1/raw/master/notes/pictures/resizing-time-cost.png)
 
 
@@ -145,7 +147,11 @@ public class QueueOfStrings{
     int size(){} //not recommended
     }
 ```
+
+### queue-linked-list-dequeue
 ![image](https://github.com/Byelaney/Algorithm-P1/raw/master/notes/pictures/queue-linked-list-dequeue.png)
+
+### queue-linked-list-enqueue
 ![image](https://github.com/Byelaney/Algorithm-P1/raw/master/notes/pictures/queue-linked-list-enqueue.png)
 
 ```java
@@ -240,8 +246,8 @@ public class Stack<Item> implements Iterable<Item>{
 |     5,1      |      *,+       |
 |     5,1      |      *,+       |
 |    4,5,1     |      *,+       |
-|    4,5,1     |     *,*,+      |
-|   5,4,5,1    |     *,*,+      |
+|    4,5,1     |     * , * , +  |
+|   5,4,5,1    |     * , * , +  |
 |    20,5,1    |      *,+       |
 |     100,1    |       +        |
 |     101      |                |
