@@ -98,5 +98,5 @@ public class Shell
 ```
 
 ### Shell Sort Proposition.
-The worst-case number of compares used by shellsort with the 3x+1 increments is O($$N^(3/2)$$).
+The worst-case number of compares used by shellsort with the 3x+1 increments is O(N^(3/2)).
 Number of compares used by shell sort with the 3x+1 increments is at most by a small multiple of N times the # of increments used.
